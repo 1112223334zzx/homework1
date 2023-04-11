@@ -96,13 +96,13 @@ repositories {
 
 #### 又出现了一个问题
 
-![image-20230408231347761](images\image-20230408231347761.png)
+![image-20230408231347761](images/image-20230408231347761.png)
 
-![image-20230408231250143](images\image-20230408231250143.png)
+![image-20230408231250143](images/image-20230408231250143.png)
 
 可能是因为gradle加载一半改代理有部分依赖包无法导入的原因，在我清空完gradle配置后重新加载项目就可以了
 
-![image-20230408232145799](images\image-20230408232145799.png)
+![image-20230408232145799](images/image-20230408232145799.png)
 
 
 
@@ -116,11 +116,11 @@ repositories {
 
 输入jupyter notebook
 
-![image-20230409020552381](images\image-20230409020552381.png)
+![image-20230409020552381](images/image-20230409020552381.png)
 
 即可
 
-![image-20230409020611017](images\image-20230409020611017.png)
+![image-20230409020611017](images/image-20230409020611017.png)
 
 ## 安装Visual Studio Code
 
@@ -132,7 +132,7 @@ repositories {
 
 
 
-![image-20230409021018237](images\image-20230409021018237.png)
+![image-20230409021018237](images/image-20230409021018237.png)
 
 
 
@@ -140,7 +140,7 @@ repositories {
 
 
 
-![image-20230409021231107](images\image-20230409021231107.png)
+![image-20230409021231107](images/image-20230409021231107.png)
 
 #### 无法打开Navigator(AttributeError: ‘str‘ object has no attribute ‘get‘)
 
