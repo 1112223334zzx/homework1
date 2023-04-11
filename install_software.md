@@ -4,39 +4,39 @@
 
 ### [官网下载](https://developer.android.com/studio?gclid=EAIaIQobChMI-O-K4b2X_gIVtBx9Ch1_YAm-EAAYASAAEgKxZvD_BwE&gclsrc=aw.ds)
 
-![image-20230407174839427](images\image-20230407174839427.png)
+![image-20230407174839427](images/image-20230407174839427.png)
 
 
 
-![image-20230407174932249](images\image-20230407174932249.png)
+![image-20230407174932249](images/image-20230407174932249.png)
 
 ### 等待安装过程
 
-![image-20230407175002359](images\image-20230407175002359.png)
+![image-20230407175002359](images/image-20230407175002359.png)
 
 ### 安装包下载完毕之后打开安装包
 
 
 
-![image-20230407175456384](images\image-20230407175456384.png)
+![image-20230407175456384](images/image-20230407175456384.png)
 
 
 
 ### 选择安装路径
 
-![image-20230407175638113](images\image-20230407175638113.png)
+![image-20230407175638113](images/image-20230407175638113.png)
 
-![image-20230407180006094](images\image-20230407180006094.png)
+![image-20230407180006094](images/image-20230407180006094.png)
 
 
 
 ### 等待安装
 
-![image-20230407180034010](images\image-20230407180034010.png)
+![image-20230407180034010](images/image-20230407180034010.png)
 
 ### 安装完成
 
-![image-20230407180045391](images\image-20230407180045391.png)
+![image-20230407180045391](images/image-20230407180045391.png)
 
 ### 安装过程中的一些问题
 
@@ -48,25 +48,25 @@ Nothing to do!
 Android SDK is up to date.
 SDK emulator directory is missing
 
-![image-20230407193609805](images\image-20230407193609805.png)
+![image-20230407193609805](images/image-20230407193609805.png)
 
 好像发现是代理的问题，节点没选对0.0  然后就无法自动下载，换了下节点之后重启了一下软件，接着就自动找到所需的SDK了
 
 ##### 等待默认代理下载SDK 
 
-![image-20230407193738525](images\image-20230407193738525.png)
+![image-20230407193738525](images/image-20230407193738525.png)
 
 ##### 下载完成！
 
-![image-20230407193914476](images\image-20230407193914476.png)
+![image-20230407193914476](images/image-20230407193914476.png)
 
 接下来就可以正常使用了
 
-![image-20230407193925489](images\image-20230407193925489.png)
+![image-20230407193925489](images/image-20230407193925489.png)
 
 选择一个模板，例如basic Activity创建后：
 
-![image-20230407194554872](images\image-20230407194554872.png)
+![image-20230407194554872](images/image-20230407194554872.png)
 
 还需要等待下载相应的gradle配置
 
@@ -82,17 +82,17 @@ repositories {
 
 配置仓库如下：
 
-![image-20230407194936335](images\image-20230407194936335.png)
+![image-20230407194936335](images/image-20230407194936335.png)
 
 #### gradle配置缺失
 
-![image-20230407201700564](images\image-20230407201700564.png)
+![image-20230407201700564](images/image-20230407201700564.png)
 
 ##### 解决办法：
 
 还是代理节点的问题，通过更换节点之后，我删除了原本的http代理，将.gradle文件夹目录下的gradle.properties删掉，重新配置http代理，然后重启android studio即可
 
-![image-20230409020244131](images\image-20230409020244131.png)
+![image-20230409020244131](images/image-20230409020244131.png)
 
 #### 又出现了一个问题
 
